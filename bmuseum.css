@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+    height: 95vh;
+}
+
+.titulo{
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 5px;
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    color: #E65100;
+}
+
+th{
+    padding: 10px;
+    padding-top: 0px;
+}
+.frame1{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border: 10px solid #E65100;
+}
+
+.bmuseum{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.infobm{
+    width: 70%;
+    height: 80%;
+}
+
+.imgbm{
+    
+    width: 30%;
+    height: 30%;
+}
