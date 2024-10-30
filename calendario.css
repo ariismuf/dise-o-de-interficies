@@ -1,0 +1,95 @@
+body{
+    background-color: lightgray;
+}
+
+.calendario1{
+    background-color: white;
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.octubre{
+    margin-right: -70px;
+    margin-left: -70px;
+    background-color: rgb(255,192,203);
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    margin-bottom: 1px;
+}
+
+.calendario1 td{
+    align-content: center;
+    padding: 8px;
+}
+
+.calendario1 table{
+    width: 450px;
+}
+
+.calendario1 th:nth-child(odd) {
+    background-color: rgb(255,192,203);
+    height: 50px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+.calendario1 tr:nth-child(odd) td:nth-child(even),
+.calendario1 tr:nth-child(even) td:nth-child(odd){
+    background-color: rgb(255,192,203);
+    height: 30px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+}
+td {
+    transition: transform 0.06s ease-in-out;
+}
+
+td:hover{
+    transform: scale(1.2);
+}
+
+
+.calendario2{
+    background-color: white;
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.noviembre{
+    background-color: rgb(211,211,211);
+    color :white;
+    letter-spacing: 10px;
+    margin-bottom: 1px;
+}
+
+.calendario2 td{
+    align-content: center;
+    padding: 8px;
+}
+
+.calendario2 table{
+    width: 550px;
+}
+
+.calendario2 th{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+  }
+
+.calendario2 tr:nth-child(odd){
+    background-color: rgb(211,211,211);
+    height: 30px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+}
