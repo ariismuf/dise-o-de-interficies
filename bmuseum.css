@@ -1,6 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+
 body{
     background-color: #000000;
     height: 95vh;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .titulo{
@@ -19,26 +25,66 @@ th{
     padding-top: 0px;
 }
 .frame1{
-    display: flex;
     margin: 0 auto;
-    width: 90%;
+    width: 60%;
     height: auto;
     background-color: white;
     border: 10px solid #E65100;
 }
 
 .bmuseum{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 .infobm{
-    width: 70%;
-    height: 80%;
+    margin-left: 3%;
+    display: flex;
+    width: 90%;
+    height: 90%;
+    flex-direction: row;
 }
 
 .imgbm{
-    
-    width: 30%;
-    height: 30%;
+    margin-left: 3%;
+    outline: 7px solid #FFA726;
+    border:7px solid #E65100;
+    width: 25%;
+    height: 25%;
+}
+
+.volver {
+    padding: 2%;
+    color: #E65100;
+    text-decoration: none;
+}
+
+.frame2{
+    margin: 3% auto;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    border: 10px solid #FFA726;
+}
+
+.tbritain{
+    margin-top: 3%;
+    margin-left: 32%;
+}
+
+.infotb{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    flex-direction: row-reverse;
+}
+
+.imgtb{
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-left: 5%;
+    outline: 7px solid #E65100;
+    border:7px solid #ffffff;
+    width: 25%;
+    height: 25%;
 }
