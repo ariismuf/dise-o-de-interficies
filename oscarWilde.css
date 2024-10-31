@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #fddcbd;
+}
+td{
+    background-color: #f2d0ab;
+    border:2px dotted grey;
+    width:300px;
+    margin: 1%;
+    padding: 20px;
+}
+
+tr{
+    width: 80%;
+    display: flex;
+    
+}
+
+span{
+    font-size: 32px;
+    font-style: italic;
+    color:#c7a678 ;
+}
+
+
+td:hover, span::before{
+    background-color:#a72a2a ;
+    color: white;
+}
+
