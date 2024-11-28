@@ -1,0 +1,142 @@
+$myFont: sans-serif;
+$mybgColor: #000000;
+$mybodyHeight: 95vh;
+$myMLBody: 10%;
+$myMRBody: 10%;
+$mytextAlign: center;
+$mygreenColor: #004d40;
+$mymarginBotton: 5px;
+$mydisplay: flex;
+$myjustifyContent: center;
+$myredColor: #E65100;
+$mypadding: 10px;
+$mypaddingTop: 0px;
+$mymargin: 0 auto;
+$mywidth: 60%;
+$myframe1Height: auto;
+$myframebgColor: white;
+$myBorder: 10px solid #E65100;
+$mymarginTop: 3%;
+$mymarginLeft: 3%;
+$myHeight: 90%;
+$myFlexDirection: row;
+$myoutLine: 7px solid #FFA726;
+$mytextDecoration: none;
+$mymarginRight: 5%;
+
+
+*{
+    font-family: $myFont;
+}
+
+body{
+    background-color: $mybgColor;
+    height: $mybodyHeight;
+    margin-left: $myMLBody;
+    margin-right: $myMRBody;
+}
+
+.titulo{
+    text-align: $mytextAlign;
+    color: $mygreenColor;
+    margin-bottom: $mymarginBotton;
+}
+
+.subtitulo{
+    display: $mydisplay;
+    justify-content: $myjustifyContent;
+    color: $myredColor;
+}
+
+th{
+    padding: $mypadding;
+    padding-top: $mypaddingTop;
+}
+
+.frame1{
+    margin: $mymargin;
+    width: $mywidth;
+    height: $myframe1Height;
+    background-color: $myframebgColor;
+    border: $myBorder;
+}
+
+.bmuseum {
+    margin-top: $mymarginTop;
+    margin-left: $mymarginLeft;
+}
+
+.infobm{
+    $mywidth: 90% !global;
+
+    margin-left: $mymarginLeft;
+    display: $mydisplay;
+    width: $mywidth;
+    height: $myHeight;
+    flex-direction: $myFlexDirection;
+}
+
+.imgbm{
+    $mywidth: 25%;
+    $myHeight: 25%;
+    $myBorder:7px solid #E65100;
+
+    margin-left: $mymarginLeft;
+    outline: $myoutLine;
+    border:$myBorder;
+    width: $mywidth;
+    height: $myHeight;
+}
+
+.volver {
+    $mypadding: 2%;
+
+    padding: $mypadding;
+    color: $myredColor;
+    text-decoration: $mytextDecoration;
+}
+
+.frame2{
+    $mymargin: 3% auto;
+    $myHeight: auto;
+    $myBorder: 10px solid #FFA726;
+
+    margin: $mymargin;
+    width: $mywidth;
+    height: $myHeight;
+    background-color: $myframebgColor;
+    border: $myBorder;
+}
+
+.tbritain{
+    $mymarginLeft: 32%;
+
+    margin-top: $mymarginTop;
+    margin-left: $mymarginLeft;
+}
+
+.infotb{
+    $myFlexDirection: row-reverse;
+    
+    display: $mydisplay;
+    width: $mywidth;
+    height: $myHeight;
+    flex-direction: $myFlexDirection;
+}
+
+.imgtb{
+    $mymarginTop: 1%;
+    $mymarginLeft: 3%;
+    $myoutLine: 7px solid #4b3224;
+    $myBorder: 7px solid #ffffff;
+    $mywidth:25%;
+    $myHeight: 25%;
+
+    margin-right: $mymarginRight;
+    margin-top: $mymarginTop;
+    margin-left: $mymarginLeft;
+    outline: $myoutLine;
+    border: $myBorder;
+    width: $mywidth;
+    height: $myHeight;
+}
