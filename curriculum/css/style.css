@@ -1,67 +1,172 @@
-body {
-    background: linear-gradient(200deg, #1c1c1c, #1c1c1c);
-    height: 100vh;
-}
-
-#img{
-    margin-top: 3%;
-    width: 10%;
-    border-radius: 150px !important;
-
-}
-
-.titulo{
-    text-align:center;
-    margin-bottom: 3%;
-    color: white;
-}
-
-#content button{
-    width: 35%;
-    margin: 0 auto;
-    margin-bottom: 1%;
-    padding: 1%;
-    font-size: 25px;
-    background-color: #333;
-    border-color: rgb(168, 163, 163);
-}
-
-#sorbremi {
-    text-align: center;
-    margin: 0 auto;
-    width: 60%; 
-    padding: 20px;
-}
-
-@media(min-width: 721px){
-    #content :hover{
-    background-color: rgb(43, 42, 42);
-    width: 30%;
-    height: 70%;
-    margin-bottom: 1%;
-    }
-}
-
-@media (max-width : 720px) {
-    body {
-        height: 100vh;
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center; 
-        align-items: center; 
-    }
-
-    #img {
-        margin-top: 0;
-        width: 30%;
-    }
-
-    #content button{
-        width: 105%;
-    }
-    #content :hover{
-        background-color: rgb(43, 42, 42);
-        }
-
+body{
+    height: 95vh;
+    background-color: #1c1c1c;
+    color: #e5c38d;
+    font-size: 15px;
+    font-family: "urbanist";
     
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+   
+    margin: auto;
+    text-decoration: none;
+    color: #e5c38d;
+    font-size: 20px;
+    padding: 2%
+}
+#nombre{
+    width: 300px;
+}
+
+#seccion{
+    width: 150px;
+}
+#foto{
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 200px;
+
+}
+
+#foto img{
+    
+    
+    width: 100%;
+    border-radius: 99px !important;
+}
+
+#accordionFlushExample{
+    padding-top: 10%;
+    margin: 0 auto;
+
+}
+
+#contacto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+#experiencia{
+    margin: 0 auto;
+   padding-top: 40px;
+   width: 50%;
+   height: auto;
+}
+
+#experiencia img{
+    width: 200px;
+    height: 400px;
+}
+
+#experiencia h5{
+    padding-top: 5%;
+}
+
+#acordeon{
+    border: solid 1px black;
+    background-color: #333232;
+    border-radius: 0%
+}
+
+#botones{
+    background-color: #333232;
+    color: #e5c38d;
+    border: solid 1px black !important;
+}
+
+#desplegables{
+    background-color: #252525;
+    color: #e5c38d;
+    border: solid 1px black !important;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textos{
+    width: 50%;
+}
+
+#banderas{
+    display: flex;
+}
+
+#grupoidioma{
+    margin: 1%;
+}
+
+#bandera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#barra{
+    display: flex;
+    width: 120px;
+    height: 15px;
+    background-color: black;
+    border:solid 1px black;
+    border-radius: 200px;
+}
+
+#barracien{
+    
+    width: 100%;
+    height: 15px;
+    background-color: #e5c38d;
+    border-radius: 200px;
+}
+
+#barracincuenta{
+    
+    width: 50%;
+    height: 15px;
+    background-color: #e5c38d;
+    border-radius: 200px;
+}
+
+
+#barracero{
+    
+    width: 4%;
+    height: 15px;
+    background-color: #e5c38d;
+    border-radius: 200px;
+}
+
+
+
+@media (max-width: 720px) {
+    #foto{
+        margin-top: 30px;
+        width: 150px;
+        
+    }
+
+    #textos {
+        width: 100%;
+    }
+
+    #experiencia{
+        width: 100%;
+    }
+
+    #experiencia img{
+        width: 100px;
+        height: 200px;
+    }
+
+    #banderas {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
